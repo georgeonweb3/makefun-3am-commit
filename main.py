@@ -15,10 +15,9 @@ every run.
 
 import os
 
-ENTRY = (
-    "fix: deleted the bug, the feature, and 3am. the code works now. "
-    "I do not know why. do not touch it."
-)
+ENTRY = "fix: deleted the bug, the feature, and 3am. the code works now. I do not know why. do not touch it."
+
+# The line is 99 characters: verified by the gate below, not assumed.
 
 # Gate from the competition rules: /output/entry.txt must be UTF-8
 # text of 1 to 139 characters, not only white space.
